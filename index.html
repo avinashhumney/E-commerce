@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="viewport" content="width=device-width, user-scalable=no">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./CSS/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
         integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
@@ -16,15 +16,27 @@
 <body>
     <header class="hero">
         <div class="navbar" id="navbar">
-            <h1 class="logo">
-                Avi
-            </h1>
+            <div>
+                <form>
+                    <i class="fa fa-search"></i><input type="text" class="search" placeholder="Search">
+                </form>
+            </div>
             <nav>
                 <ul>
                     <li><a href="#" class="active">Home</a></li>
                     <li><a href="#footwears">Footwears</a></li>
                     <li><a href="#products">Products</a></li>
                     <li><a href="#contact">Contact</a></li>
+                    <div class="header-icon">
+                        <div class="login">
+                            <i class="fa fa-user-circle" aria-hidden="true"></i>
+                            <p>Profile</p>
+                        </div>
+                        <div class="cart">
+                            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                            <p>Cart</p>
+                        </div>
+                    </div>
                 </ul>
             </nav>
         </div>
@@ -43,7 +55,7 @@
         <section class="section">
             <div class="flex-items">
                 <div class="section-container">
-                    <i class="fa fa-truck fa-2x" aria-hidden="true" ></i>
+                    <i class="fa fa-truck fa-2x" aria-hidden="true"></i>
                     <h2>Free Shipping</h2>
                     <p>Free delivery over &#8377;7000</p>
                 </div>
@@ -55,7 +67,7 @@
                 <div class="section-container">
                     <i class="fa fa-shield fa-2x" aria-hidden="true"></i>
                     <h2>Secure</h2>
-                    <p>Best security features</p>
+                    <p>Secured Payments</p>
                 </div>
             </div>
         </section>
@@ -64,23 +76,23 @@
 
         <section>
             <div class="section-2">
-                    <div>
-                        <img src="./Imgarticle/photo-of-high-top-sneakers-on-nike-box-4273288.jpg" height="450px"
-                            width="330px" alt="person holding">
-                    </div>
-                    <div class="heading">
-                        <h1>Exclusive in every Shapes and Design.
-                            Just DO it.</h1>
-                        <button class="animate__animated animate__bounceIn">Explore</button>
-                    </div>
-                    <div>
-                        <img src="./Imgarticle/person-in-black-pants-and-white-nike-sneakers-4695177.jpg" height="450px"
-                            width="300px" alt="person holding" id="img">
-                    </div>
-                    <div>
-                        <img src="./Imgarticle/person-wearing-black-nike-basketball-shoes-4695156.jpg" height="450px"
-                            width="300px" alt="person holding" id="img">
-                    </div>
+                <div>
+                    <img src="./Imgarticle/photo-of-high-top-sneakers-on-nike-box-4273288.jpg" height="450px"
+                        width="330px" alt="person holding">
+                </div>
+                <div class="heading">
+                    <h1>Comfortable fit and great designs for all sizes.
+                        Just DO it.</h1>
+                    <button class="animate__animated animate__bounceIn">Explore</button>
+                </div>
+                <div>
+                    <img src="./Imgarticle/person-in-black-pants-and-white-nike-sneakers-4695177.jpg" height="450px"
+                        width="300px" alt="person holding" id="img">
+                </div>
+                <div>
+                    <img src="./Imgarticle/person-wearing-black-nike-basketball-shoes-4695156.jpg" height="450px"
+                        width="300px" alt="person holding" id="img">
+                </div>
             </div>
         </section>
 
@@ -176,9 +188,9 @@
                 <div class="women-container">
                     <div class="women-des">
                         <h1>Sneakers for Women</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum porro vero temporibus rerum?
-                            Amet,
-                            quos.</p>
+                        <p>Hot Deals</p>
+                        <p>Under &#8377;799 Store</p>
+                        <h3></h3>
                         <button class="des-btn btn-red">Shop Now</button>
                     </div>
                     <div class="women-img">
@@ -192,9 +204,8 @@
                     </div>
                     <div class="men-des">
                         <h1>Sneakers for Men</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum porro vero temporibus rerum?
-                            Amet,
-                            quos.</p>
+                        <p>Top Deals</p>
+                        <p>Flat 30% OFF On All Styles</p>
                         <button class="des-btn btn-black">Shop Now</button>
                     </div>
 
@@ -206,10 +217,10 @@
         <div id="contact" class="newsletter">
 
             <div>
-                <h1>Follow us on</h1>
+                <h1>Follow on</h1>
                 <div class="social">
-                    <a href="https://www.instagram.com/avinash.humney/" target="_blank" class="insta">
-                        <i class="fa fa-instagram fa-3x"></i>
+                    <a href="https://github.com/avinashhumney" target="_blank" class="github">
+                        <i class="fa fa-github fa-3x" aria-hidden="true"></i>
                     </a>
                     <a href="https://www.linkedin.com/in/avinash-humney-4094421b2/" target="_blank" class="in">
                         <i class="fa fa-linkedin-square fa-3x"></i>
@@ -228,7 +239,7 @@
         <!-- Footer -->
 
         <footer>
-            <p>Avinash Humney Ecommerce &#169; 2020, All rights reserved.</p>
+            <p>Ecommerce copyright &#169; 2020 Avinash Humney. All rights reserved.</p>
         </footer>
     </main>
     <script src="main.js"></script>
